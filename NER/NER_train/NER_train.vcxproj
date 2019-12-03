@@ -127,9 +127,11 @@
   <ItemGroup>
     <ClCompile Include="..\NER\String_convert.cpp" />
     <ClCompile Include="main_train.cpp" />
+    <ClCompile Include="Output.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\NER\String_convert.h" />
+    <ClInclude Include="Output.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

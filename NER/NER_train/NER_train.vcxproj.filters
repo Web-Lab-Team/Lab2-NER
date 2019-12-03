@@ -21,9 +21,15 @@
     <ClCompile Include="..\NER\String_convert.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Output.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\NER\String_convert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Output.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
