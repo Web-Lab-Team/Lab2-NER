@@ -7,7 +7,9 @@
 
 using namespace std;
 
-vector<string> readData(const char *file) {
+constexpr const char *DATA_FILE = "实验二测试数据集.json";
+
+vector<string> read_data(const char *file) {
 	ifstream infile(file);
 	if (infile.fail()) { 
 		cerr << "cannot open file " << file << endl;
@@ -31,7 +33,7 @@ vector<string> readData(const char *file) {
 }
 
 int main() {
-	vector<string> vec = readData("实验二测试数据集.json");
+	vector<string> vec = read_data(DATA_FILE);
 	for (const auto &s : vec) {
 		cout << String_convert::utf8_to_string(s) << endl;
 	}

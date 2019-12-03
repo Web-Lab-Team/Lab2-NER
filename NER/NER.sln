@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NER", "NER\NER.vcxproj", "{78C2D784-6A6A-4DA9-8802-C427A981698B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NER_train", "NER_train\NER_train.vcxproj", "{BE8855BF-DE98-4EC3-A1C4-267B3A86E4EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{78C2D784-6A6A-4DA9-8802-C427A981698B}.Release|x64.Build.0 = Release|x64
 		{78C2D784-6A6A-4DA9-8802-C427A981698B}.Release|x86.ActiveCfg = Release|Win32
 		{78C2D784-6A6A-4DA9-8802-C427A981698B}.Release|x86.Build.0 = Release|Win32
+		{BE8855BF-DE98-4EC3-A1C4-267B3A86E4EB}.Debug|x64.ActiveCfg = Debug|x64
+		{BE8855BF-DE98-4EC3-A1C4-267B3A86E4EB}.Debug|x64.Build.0 = Debug|x64
+		{BE8855BF-DE98-4EC3-A1C4-267B3A86E4EB}.Debug|x86.ActiveCfg = Debug|Win32
+		{BE8855BF-DE98-4EC3-A1C4-267B3A86E4EB}.Debug|x86.Build.0 = Debug|Win32
+		{BE8855BF-DE98-4EC3-A1C4-267B3A86E4EB}.Release|x64.ActiveCfg = Release|x64
+		{BE8855BF-DE98-4EC3-A1C4-267B3A86E4EB}.Release|x64.Build.0 = Release|x64
+		{BE8855BF-DE98-4EC3-A1C4-267B3A86E4EB}.Release|x86.ActiveCfg = Release|Win32
+		{BE8855BF-DE98-4EC3-A1C4-267B3A86E4EB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
